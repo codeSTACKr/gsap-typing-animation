@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Code+Pro&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: #00050a;
+  color: #eeeeee;
+}
+
+h1 {
+  position: relative;
+  font-family: Lato, sans-serif;
+  font-size: 6vw;
+  font-weight: bold;
+  padding-left: 15vw;
+  overflow: hidden;
+}
+
+h1 .hi {
+  display: inline-block;
+}
+
+h1 .text {
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: normal;
+  padding-left: 1.2vw;
+}
+
+h1 .box {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  background: #2800ad;
+  height: 1vw;
+  z-index: -1;
+}
